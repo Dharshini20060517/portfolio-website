@@ -1,0 +1,60 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Smooth scrolling */
+html{
+    scroll-behavior:smooth;
+}
+
+/* Body */
+body{
+    margin:0;
+    width:100%;
+    min-height:100vh;
+    overflow-x:hidden; /* Prevent horizontal scrolling */
+    font-family:'Segoe UI', sans-serif;
+}
+
+/* Images */
+img{
+    max-width:100%;
+    height:auto;
+    display:block;
+}
+
+/* Sections */
+section{
+    width:100%;
+    padding:80px 20px;
+    animation:fadeIn 1s ease-in-out;
+}
+
+/* Animation */
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+/* Tablets */
+@media (max-width:768px){
+    section{
+        padding:60px 15px;
+    }
+}
+
+/* Mobile Phones */
+@media (max-width:480px){
+    section{
+        padding:50px 10px;
+    }
+}
