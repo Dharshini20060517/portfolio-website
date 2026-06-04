@@ -1,6 +1,6 @@
 import "../styles/Hero.css";
 import profileImg from "../assets/profile.jpeg";
-import resume from "../assets/resume/Resume.pdf";
+import resume from "../assets/resume/Dharshini_T_Resume.pdf";
 
 
 function Hero() {
