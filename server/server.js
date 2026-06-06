@@ -1,7 +1,7 @@
 console.log("SERVER FILE LOADED");
 
-// Database Connection
-require("./config/db");
+// Import DB (IMPORTANT FIX)
+const db = require("./config/db");
 
 const express = require("express");
 const cors = require("cors");
@@ -20,12 +20,23 @@ app.use(express.json());
 app.use("/api/contact", contactRoutes);
 app.use("/api/projects", projectRoutes);
 
-// Test Route
+// Home Route
 app.get("/", (req, res) => {
   res.send("Portfolio Backend Running");
 });
 
-// Test Route
+// TEST ROUTE (FIXED - THIS WAS MISSING)
+app.get("/test-db", (req, res) => {
+  db.query("SELECT NOW()", (err, result) => {
+    if (err) {
+      console.log("DB Error:", err);
+      return res.status(500).send("Database Error");
+    }
+    res.json(result);
+  });
+});
+
+// Simple test route
 app.get("/test", (req, res) => {
   res.send("GET test works");
 });
