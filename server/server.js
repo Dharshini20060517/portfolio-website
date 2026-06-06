@@ -1,3 +1,4 @@
+require("dotenv").config();
 console.log("SERVER FILE LOADED");
 
 // Import DB (IMPORTANT FIX)
