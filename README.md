@@ -8,38 +8,38 @@ Portfolio Website:
 https://portfolio-website-delta-sooty-71.vercel.app
 
 📌 Features
-Responsive and modern portfolio design
-Dynamic projects section powered by database
-Contact form with database integration
-Full-stack architecture using React and Node.js
-Cloud database using TiDB Cloud
-Backend deployed on Render
-Frontend deployed on Vercel
-MVC architecture implementation
+Responsive and modern portfolio design,
+Dynamic projects section powered by database,
+Contact form with database integration,
+Full-stack architecture using React and Node.js,
+Cloud database using TiDB Cloud,
+Backend deployed on Render,
+Frontend deployed on Vercel,
+MVC architecture implementation.
 
 
 🛠️ Tech Stack
 
 **Frontend**
-React.js
-Vite
-CSS3
-Axios
+React.js,
+Vite,
+CSS3,
+Axios.
 
 **Backend**
-Node.js
-Express.js
+Node.js,
+Express.js.
 
 **Database**
-TiDB Cloud (MySQL Compatible)
+TiDB Cloud (MySQL Compatible).
 
 **Deployment**
-Vercel (Frontend)
-Render (Backend)
+Vercel (Frontend),
+Render (Backend).
 
 **Version Control**
-Git
-GitHub
+Git,
+GitHub.
 
 📂 Project Structure
 
@@ -62,14 +62,14 @@ portfolio-website/
 📂 Project Setup
 
 **Frontend:**
-cd client
-npm install
-npm run dev
+cd client,
+npm install,
+npm run dev.
 
 **Backend**
-cd server
-npm install
-node server.js
+cd server,
+npm install,
+node server.js.
 
 👩‍💻 Author
 Dharshini:
